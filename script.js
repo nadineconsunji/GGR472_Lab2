@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
 	container: 'my-map', // map container ID
 	style: 'mapbox://styles/nadineconsunji/cmkyjcxru008t01s7c1xvf9fr', // style URL
 	center: [-79.40, 43.66], // starting position [lng, lat] to start centred around Toronto 
-	zoom: 10, // starting zoom
+	zoom: 12, // starting zoom
 });
 
 // Once map finishes loading, trigger the following functions 
