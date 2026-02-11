@@ -11,4 +11,9 @@ This repository contains code for the webpage which includes a web map (with a m
 #### The Website 
 Ultimately, while fairly simple, this website contains code to showcase transit near UofT's campus. This includes major roads near campus, bike lanes and parking locations, and major TTC stations near campus. 
 
+#### Files and Data Sources
+Raw GEOJson data files can be found in the "Data" folder. These were sourced from both myself and the City of Toronto's Open Data Portal. Image files can be found in the "Images" folder and were sourced from Google searches of each corresponding location. 
+
+Index.html is the main/home webpage, with the titles of other html files being associated with their name on the navigation bar from "index.html". 
+
 The final webpage can be found here: [https://nadineconsunji.github.io/GGR472_Lab2/](https://nadineconsunji.github.io/GGR472_Lab2/)
