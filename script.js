@@ -18,13 +18,13 @@ map.on('load', () => {
 	// Outdoor bike parking - GeoJSON file (added via URL for organisation)
     map.addSource('outdoor-bike-parking', { // ID created
         type: 'geojson',
-        data: 'https://nadineconsunji.github.io/GGR472_EX5/OutdoorBicycleParking.geojson' //CHANGE THIS RIGHT HERE!!!
+        data: 'https://nadineconsunji.github.io/GGR472_Lab2/OutdoorBicycleParking.geojson' //CHANGE THIS RIGHT HERE!!!
     });
 
 	// Bike lanes - GeoJSON file (added via URL for organisation)
     map.addSource('bike-lanes', { 
         type: 'geojson',
-        data: 'https://nadineconsunji.github.io/GGR472_EX5/BikeRoutes.geojson' //CHANGE THIS RIGHT HERE!!! 
+        data: 'https://nadineconsunji.github.io/GGR472_Lab2/BikeRoutes.geojson' //CHANGE THIS RIGHT HERE!!! 
     });
 
 // 2. Visualise data layers/load them into the map 
