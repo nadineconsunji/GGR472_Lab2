@@ -9,19 +9,26 @@ const map = new mapboxgl.Map({
 	zoom: 12, // starting zoom
 });
 
+map.on('load', () => {
+  
+});
+
 // Once map finishes loading, trigger the following functions 
 map.on('load', () => {
+    // resize map accordingly if browser size is changed/minimised 
+    map.resize();
 
 // 1. Add data sources 
 	// Outdoor bike parking - GeoJSON file (added via URL for organisation)
     map.addSource('outdoor-bike-parking', { // ID created
         type: 'geojson',
-        data: 'https://nadineconsunji.github.io/GGR472_EX5/OutdoorBicycleParking.geojson' //CHANGE THIS RIGHT HERE!!! 
+        data: 'https://raw.githubusercontent.com/nadineconsunji/GGR472_Lab2/main/OutdoorBicycleParking.geojson' //CHANGE THIS RIGHT HERE!!!
+    });
 
 	// Bike lanes - GeoJSON file (added via URL for organisation)
     map.addSource('bike-lanes', { 
         type: 'geojson',
-        url: 'https://nadineconsunji.github.io/GGR472_EX5/BikeRoutes.geojson' //CHANGE THIS RIGHT HERE!!! 
+        data: 'https://raw.githubusercontent.com/nadineconsunji/GGR472_Lab2/main/BikeRoutes.geojson' //CHANGE THIS RIGHT HERE!!! 
     });
 
 // 2. Visualise data layers/load them into the map 
@@ -42,7 +49,7 @@ map.on('load', () => {
         type: 'line',
         source: 'bike-lanes',
         paint: {
-            'line-radius': 2, 
+            'line-width': 2, 
             'line-color': '#007cbf'
         }
     });
