@@ -11,4 +11,4 @@ This repository contains code for the webpage which includes a web map (with a m
 #### The Website 
 Ultimately, while fairly simple, this website contains code to showcase transit near UofT's campus. This includes major roads near campus, bike lanes and parking locations, and major TTC stations near campus. 
 
-The final webpage can be found here: INSERT THE WEBPAGE HERE
+The final webpage can be found here: [https://nadineconsunji.github.io/GGR472_Lab2/](https://nadineconsunji.github.io/GGR472_Lab2/)
