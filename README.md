@@ -1,4 +1,4 @@
-GGR472 Lab 2
+## GGR472 Lab 2
 
 Building of the work accomplished in Lab 1, I created my first web map with Mapbox GL JS and embedded it into one of the existing html pages I had from Lab 1. 
 
