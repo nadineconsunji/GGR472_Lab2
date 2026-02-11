@@ -3,3 +3,7 @@
   height: 500px;
   position: relative;
 }
+
+body {
+  padding-top: 62px; /* default Bootstrap navbar height */
+}
